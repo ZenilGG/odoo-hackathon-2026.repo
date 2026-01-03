@@ -64,8 +64,6 @@ Backend (Spring Boot)
 |
 Database
 
-yaml
-Copy code
 
 ---
 
@@ -81,8 +79,6 @@ frontend/
 ├── index.html
 └── package.json
 
-shell
-Copy code
 
 ### Backend
 backend/
@@ -94,10 +90,6 @@ backend/
 ├── application.properties
 └── pom.xml
 
-yaml
-Copy code
-
----
 
 ## ⚙️ Setup Instructions
 
@@ -112,7 +104,6 @@ cd backend
 mvn spring-boot:run
 Backend will start at:
 
-arduino
 Copy code
 http://localhost:8080
 3️⃣ Run Frontend (React)
@@ -123,7 +114,6 @@ npm install
 npm run dev
 Frontend will start at:
 
-arduino
 Copy code
 http://localhost:5173
 🔌 API Integration
